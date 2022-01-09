@@ -96,7 +96,7 @@ function evaluvate({currentOperand,previousOperand,operation}){
   if(isNaN(prev) || isNaN(current)) return ""
   let computation=""
   switch(operation){
-    case "+":
+    case "+":           
       computation=prev+current
       break
     case "-":
