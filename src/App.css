@@ -3,16 +3,20 @@
 }
 body{
   margin: 0;
-  background: linear-gradient(to right, #00AAFF,#00FF6c);
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkUcvra6sJT1ROd0KFv4c8U-KNI1Ldlq4kUGmAEbzSiwStGaI9gWOQ872ZtwwsQc4NiIc&usqp=CAU');
+  /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkUcvra6sJT1ROd0KFv4c8U-KNI1Ldlq4kUGmAEbzSiwStGaI9gWOQ872ZtwwsQc4NiIc&usqp=CAU'); */
+  /* background: linear-gradient(to right, #8b959b,#251f1f); */
 }
 .calculetor-grid{
   display: grid;
   margin-top: 2rem;
+  border-radius: 5px;
   justify-content: center;
   grid-template-columns: repeat(4,6rem);
   grid-template-rows: minmax(7rem,auto) repeat(5,6rem)
 }
 .calculetor-grid > button{
+  /* border: 1px solid blueviolet; */
   cursor: pointer;
   font-size: 2rem;
   border: 1px solid white;

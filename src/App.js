@@ -118,7 +118,7 @@ function App() {
 
   // dispatch({type:ACTIONS.ADD_DIG,payload:{digit:1}})
   return (
-    <div className='calculetor-grid'> 
+    <div className='calculetor-grid' > 
 
       <div className='output'>
           <div className='previous-operand'>{previousOperand} {operation}</div>
